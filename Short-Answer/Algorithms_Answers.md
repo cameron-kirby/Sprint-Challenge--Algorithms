@@ -5,11 +5,11 @@
 a) BigO(n)
 Contains a while loop that has complexity on a linear scale
 
-b) BigO(n^2)
+b) BigO(n*logN)
 Contains a nested for/while loop, therefore bringing up the complexity to a quadratic scale
 
 c) BigO(n)
-Recursive algorith, that basically decrements n, the number of bunnies, and counts the ears of the bunnies removed in this way. It's linear
+Recursive algorithm, that basically decrements n, the number of bunnies, and counts the ears of the bunnies removed in this way. It's linear
 
 ## Exercise II
 

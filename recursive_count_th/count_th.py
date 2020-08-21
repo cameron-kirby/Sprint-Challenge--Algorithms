@@ -14,10 +14,9 @@ call function again until there is only 1 character in word left
 '''
 
 def count_th(word):
-    substring = "th"
     if len(word) < 2:
         return 0
-    elif word[:2] == substring:
-        return 1 + count_th(word[1:])
+    elif word[:2] == "th":
+        return 1 + count_th(word[2:])
     else:
         return count_th(word[1:])
